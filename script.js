@@ -229,7 +229,7 @@ function generatePDF() {
     doc.setFontSize(9);
     doc.text('Mr. Mohammed S.R', margin, sigY + 25);
     doc.setFont(undefined, 'normal');
-    doc.text('Principal/Director', margin, sigY + 30);
+    doc.text('Founder/Director', margin, sigY + 30);
     doc.setFont(undefined, 'bold');
     doc.text(`Admission Date: ${formData.submission_date}`, rightCol, sigY + 25);
 
